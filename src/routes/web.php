@@ -17,3 +17,5 @@ use App\Http\Controllers\ChartController;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/chart', [ChartController::class, 'getting_started']);
