@@ -1,7 +1,6 @@
 import Chart from 'chart.js/auto';
 
 const ctx = document.getElementById('chart_getting_started');
-console.log(ctx);
 
 new Chart(ctx, {
     type: 'bar',
